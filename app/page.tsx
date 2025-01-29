@@ -1,10 +1,13 @@
 import NavBar from "./components/NavBar";
 import Portada from "./components/welcome/Portada";
+import Luna from "./components/welcome/Luna";
 export default function Home() {
   return (
-    <div className="h-screen w-full h-screen">
+    <div className="w-full h-content
+">
       <NavBar/>
-      <Portada></Portada>
+      <Portada/>
+      <Luna/>
     </div>
   );
 }

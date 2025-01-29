@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function portada() {
+export default function Portada() {
   return (
     <div className="flex flex-col w-full text-center items-center">
       <h1 className="text-6xl font-black
